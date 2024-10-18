@@ -13,7 +13,7 @@ wav_directory = r"C:\soiceclone\First_wavs"  # Use raw string to avoid escape ch
 output_file = os.path.join(wav_directory, "list.txt")
 
 # Define the range of .wav files (1 to 165)
-wav_files_range = range(1, 31)
+wav_files_range = range(1, 82)
 
 # Initialize the list to store file paths and transcripts
 file_and_transcripts = []

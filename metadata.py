@@ -7,7 +7,7 @@ def update_metadata(input_folder, output_folder):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    for i in range(1, 31):  # change  this to the number of files in your folder + 1
+    for i in range(1, 82):  # change  this to the number of files in your folder + 1
         input_file = os.path.join(input_folder, f"{i}.wav")
         output_file = os.path.join(output_folder, f"{i}.wav")
 

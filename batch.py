@@ -3,7 +3,7 @@ import os
 
 def rename_wave_files(folder_path):
     files = os.listdir(folder_path)
-    wav_files = [f for f in files if f.lower().endswith('.wav')]
+    wav_files = [f for f in files if f.endswith('.wav')]
 
     print(f'Folder path: {folder_path}')
     print(f'All files in the folder: {files}')
@@ -17,6 +17,6 @@ def rename_wave_files(folder_path):
 
 
 if __name__ == "__main__":
-    folder_path = r'C:\\voice clone\\First_wavs'  # Change this to your wav file folder
+    folder_path = r'C:\\soiceclone\\First_wavs'  # Change this to your wav file folder
     rename_wave_files(folder_path)
     print("Wave files renamed successfully!")
